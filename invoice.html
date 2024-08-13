@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eriko</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit&family=Pacifico&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!--===================================================== Header =====================================================-->
+<div id="header">
+    <nav class="navbar" id="navbar3">
+        <div class="navbar-brand">
+            <a href="index.html" class="a-link">
+                <h1>eriko</h1>
+            </a>
+        </div>
+        <ul id="nav">
+            <li><a href="index.html">Trang chủ</a>
+            <li>
+                <a href="#">Cửa hàng</a>
+                <div class="category-menu">
+                    <ul>
+                        <li><a href="product.html" id="store-link">Hàng hoá</a></li>
+                        <li><a href="staff.html">Nhân viên</a></li>
+                        <li><a href="supplier.html">Nhà cung cấp</a></li>
+                        <li><a href="customer.html">Khách hàng</a></li>
+                        <li><a href="invoice.html">Hoá đơn</a></li>
+                        <li><a href="#">Báo cáo thống kê</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">Bảng giá</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Trợ giúp</a></li>
+        </ul>
+
+        <div class="other">
+            <div class="search-container">
+                <input placeholder="Tìm kiếm" type="text">
+                <i class="fas fa-search"></i>
+            </div>
+            <a class="fa fa-user" href="#"></a>
+        </div>
+    </nav>
+</div>
+
+<!--===================================================== Invoice =====================================================-->
+<div class="product-container">
+    <div class="product-sidebar">
+      <div class="filter-section">
+        <h3>Hoá đơn</h3>
+        <ul>
+            <li>Tất cả</li>
+            <li>Hoá đơn bán hàng</li>
+            <li>Phiếu nhập hàng</li>
+        </ul>
+      </div>
+      <div class="group-section">
+        <h3>Thời gian</h3>
+      </div>
+      <div class="filter-section">
+        <ul>
+          <li>Theo ngày</li>
+          <li>Theo tuần</li>
+          <li>Theo tháng</li>
+          <li>Theo năm</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-content">
+        <div class="product-header">
+          <input type="text" placeholder="Theo mã hoá đơn">
+          <select>
+            <option value="all">Tất cả</option>
+          </select>
+          <div class="addProductBtn">
+            <a href="addproduct.html"><button>Thêm mới</button></a>
+          </div>
+        </div>
+  
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Mã hoá đơn</th>
+              <th>Thời gian lập</th>
+              <th>Tổng tiền</th>
+              <th>Khách hàng</th>
+              <th>Trạng thái</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000020</td>
+              <td>20/01/2024</td>
+              <td>220,000</td>
+              <td>Lê Bông Hoa</td>
+              <td>Đã thanh toán</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000021</td>
+              <td>03/01/2024</td>
+              <td>550,000</td>
+              <td>Lê Thanh Hùng</td>
+              <td>Đã thanh toán</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000022</td>
+              <td>22/11/2023</td>
+              <td>780,000</td>
+              <td>Đinh Thị Hằng</td>
+              <td>Đã thanh toán</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000023</td>
+              <td>07/12/2023</td>
+              <td>990,000</td>
+              <td>Lê Thuỳ Trang</td>
+              <td>Đã thanh toán</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000024</td>
+              <td>20/01/2024</td>
+              <td>63,000</td>
+              <td>Đinh Hồng Ngọc</td>
+              <td>Đã thanh toán</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000025</td>
+              <td>15/08/2023</td>
+              <td>262,000</td>
+              <td>Đinh Thị Thuỳ Linh</td>
+              <td>Đang xử lý</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000026</td>
+              <td>12/04/2024</td>
+              <td>1020,000</td>
+              <td>Mỹ Linh Đàm</td>
+              <td>Đã thanh toán</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000027</td>
+              <td>13/06/2024</td>
+              <td>20,000</td>
+              <td>Phan Hồng Sơn</td>
+              <td>Đã thanh toán</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000028</td>
+              <td>14/06/2024</td>
+              <td>445,000</td>
+              <td>Hà Châu Anh</td>
+              <td>Đã thanh toán</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000029</td>
+              <td>15/06/2024</td>
+              <td>167,000</td>
+              <td>Phạm Thị Duyên</td>
+              <td>Đang xử lý</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="highlighted">
+              <td><input type="checkbox"></td>
+              <td>HD000030</td>
+              <td>17/06/2024</td>
+              <td>59,000</td>
+              <td>Lê Đức Thịnh</td>
+              <td>Đã thanh toán</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+  
+    <script src="main.js"></script>
+  </body>
+  
+  </html>

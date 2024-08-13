@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eriko</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit&family=Pacifico&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!--===================================================== Header =====================================================-->
+<div id="header">
+    <nav class="navbar" id="navbar3">
+        <div class="navbar-brand">
+            <a href="index.html" class="a-link">
+                <h1>eriko</h1>
+            </a>
+        </div>
+        <ul id="nav">
+            <li><a href="index.html">Trang chủ</a>
+            <li>
+                <a href="#">Cửa hàng</a>
+                <div class="category-menu">
+                    <ul>
+                        <li><a href="product.html" id="store-link">Hàng hoá</a></li>
+                        <li><a href="staff.html">Nhân viên</a></li>
+                        <li><a href="supplier.html">Nhà cung cấp</a></li>
+                        <li><a href="customer.html">Khách hàng</a></li>
+                        <li><a href="invoice.html">Hoá đơn</a></li>
+                        <li><a href="#">Báo cáo thống kê</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">Bảng giá</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Trợ giúp</a></li>
+        </ul>
+
+        <div class="other">
+            <div class="search-container">
+                <input placeholder="Tìm kiếm" type="text">
+                <i class="fas fa-search"></i>
+            </div>
+            <a class="fa fa-user" href="#"></a>
+        </div>
+    </nav>
+</div>
+
+<!--===================================================== Add Product =====================================================-->
+<div class="product-container">
+    <div class="product-sidebar">
+      <div class="filter-section">
+        <h3>Danh mục hàng hoá</h3>
+        <ul>
+            <li>Tất cả</li>
+            <li>Đồ uống có ga</li>
+            <li>Đồ uống có cồn</li>
+            <li>Gia vị</li>
+            <li>Sữa các loại</li>
+            <li>Bánh</li>
+            <li>Kẹo</li>
+            <li>Thực phẩm khô</li>
+            <li>Mỳ tôm</li>
+            <li>Gia dụng</li>
+            <li>Văn phòng phẩm</li>
+            <li>Dầu gội</li>
+            <li>Sữa tắm</li>
+            <li>Tẩy rửa</li>
+        </ul>
+      </div>
+      <div class="group-section">
+        <h3>Nhóm hàng</h3>
+        <input type="text" placeholder="Tìm kiếm nhóm hàng">
+      </div>
+      <div class="filter-section">
+        <ul>
+          <li>Tất cả</li>
+          <li>Đồ uống</li>
+          <li>Bánh kẹo</li>
+          <li>Đồ dùng gia đình</li>
+        </ul>
+      </div>
+      <div class="filter-section">
+        <h3>Tồn kho</h3>
+        <ul>
+          <li>Tất cả</li>
+          <li>Dưới định mức tồn</li>
+          <li>Vượt định mức tồn</li>
+          <li>Còn hàng trong kho</li>
+          <li>Hết hàng trong kho</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-content">
+        <div class="add-product-form hidden">
+          <h2>Thêm sản phẩm mới</h2>
+          <form id="productForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="productCode">Mã sản phẩm:</label>
+                <input type="text" id="productCode" name="productCode" required>
+              </div>
+              <div class="form-group">
+                <label for="productName">Tên sản phẩm:</label>
+                <input type="text" id="productName" name="productName" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="unit">Đơn vị tính:</label>
+                <input type="text" id="unit" name="unit" required>
+              </div>
+              <div class="form-group">
+                <label for="barcode">Số lượng:</label>
+                <input type="text" id="barcode" name="barcode">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="price">Giá gốc:</label>
+                    <input type="text" id="price" name="price" required>
+                  </div>
+              <div class="form-group">
+                <label for="originalPrice">Giá bán:</label>
+                <input type="text" id="originalPrice" name="originalPrice">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="manufactureDate">Ngày sản xuất:</label>
+                <input type="text" id="manufactureDate" name="manufactureDate">
+              </div>
+              <div class="form-group">
+                <label for="expiryDate">Hạn sử dụng:</label>
+                <input type="text" id="expiryDate" name="expiryDate">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="supplier">Nhà cung cấp:</label>
+                    <input type="text" id="supplier" name="supplier">
+                </div>
+              <div class="form-group">
+                <label for="category">Danh mục hàng hoá:</label>
+                <input type="text" id="category" name="category">
+              </div>
+            </div>
+            <button type="submit">Lưu sản phẩm</button>
+            <button type="submit">Huỷ sản phẩm</button>
+          </form>
+        </div>
+      </div>
+      
+
+  <script src="main.js"></script>
+</body>
+
+</html>

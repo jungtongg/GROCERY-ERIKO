@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eriko</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit&family=Pacifico&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!--===================================================== Header =====================================================-->
+<div id="header">
+    <nav class="navbar" id="navbar3">
+        <div class="navbar-brand">
+            <a href="index.html" class="a-link">
+                <h1>eriko</h1>
+            </a>
+        </div>
+        <ul id="nav">
+            <li><a href="index.html">Trang chủ</a>
+            <li>
+                <a href="#">Cửa hàng</a>
+                <div class="category-menu">
+                    <ul>
+                        <li><a href="product.html" id="store-link">Hàng hoá</a></li>
+                        <li><a href="staff.html">Nhân viên</a></li>
+                        <li><a href="supplier.html">Nhà cung cấp</a></li>
+                        <li><a href="customer.html">Khách hàng</a></li>
+                        <li><a href="invoice.html">Hoá đơn</a></li>
+                        <li><a href="#">Báo cáo thống kê</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">Bảng giá</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Trợ giúp</a></li>
+        </ul>
+
+        <div class="other">
+            <div class="search-container">
+                <input placeholder="Tìm kiếm" type="text">
+                <i class="fas fa-search"></i>
+            </div>
+            <a class="fa fa-user" href="#"></a>
+        </div>
+    </nav>
+</div>
+
+<!--===================================================== Product =====================================================-->
+<div class="product-container">
+    <div class="product-sidebar">
+      <div class="filter-section">
+        <h3>Danh mục hàng hoá</h3>
+        <ul>
+            <li>Tất cả</li>
+            <li>Đồ uống có ga</li>
+            <li>Đồ uống có cồn</li>
+            <li>Gia vị</li>
+            <li>Sữa các loại</li>
+            <li>Bánh</li>
+            <li>Kẹo</li>
+            <li>Thực phẩm khô</li>
+            <li>Mỳ tôm</li>
+            <li>Gia dụng</li>
+            <li>Văn phòng phẩm</li>
+            <li>Dầu gội</li>
+            <li>Sữa tắm</li>
+            <li>Tẩy rửa</li>
+        </ul>
+      </div>
+      <div class="group-section">
+        <h3>Nhóm hàng</h3>
+        <input type="text" placeholder="Tìm kiếm nhóm hàng">
+      </div>
+      <div class="filter-section">
+        <ul>
+          <li>Tất cả</li>
+          <li>Đồ uống</li>
+          <li>Bánh kẹo</li>
+          <li>Đồ dùng gia đình</li>
+        </ul>
+      </div>
+      <div class="filter-section">
+        <h3>Tồn kho</h3>
+        <ul>
+          <li>Tất cả</li>
+          <li>Dưới định mức tồn</li>
+          <li>Vượt định mức tồn</li>
+          <li>Còn hàng trong kho</li>
+          <li>Hết hàng trong kho</li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="product-header">
+        <input type="text" placeholder="Theo mã, tên hàng">
+        <select>
+          <option value="all">Tất cả</option>
+        </select>
+        <div class="addProductBtn">
+          <a href="addproduct.html"><button>Thêm mới</button></a>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Mã sản phẩm</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá gốc</th>
+            <th>Giá bán</th>
+            <th>ĐVT</th>
+            <th>Số lượng</th>
+            <th>NSX</th>
+            <th>HSD</th>
+            <th>Nhà cung cấp</th>
+            <th>Danh mục</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000020</td>
+            <td>Sữa Vinamilk ít đường</td>
+            <td>10,000</td>
+            <td>12,000</td>
+            <td>Hộp</td>
+            <td>201</td>
+            <td>20/01/2024</td>
+            <td>18/12/2024</td>
+            <td>NCC0001</td>
+            <td>DM0001</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000021</td>
+            <td>Bánh gạo JunJu</td>
+            <td>28,000</td>
+            <td>30,000</td>
+            <td>Gói</td>
+            <td>450</td>
+            <td>11/01/2024</td>
+            <td>13/02/2024</td>
+            <td>NCC0003</td>
+            <td>DM0001</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000022</td>
+            <td>Mỳ tôm Omachi vị bò</td>
+            <td>7,000</td>
+            <td>9,000</td>
+            <td>Gói</td>
+            <td>870</td>
+            <td>19/04/2024</td>
+            <td>19/04/2025</td>
+            <td>NCC0002</td>
+            <td>DM0002</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000023</td>
+            <td>Sữa chua TH True Milk</td>
+            <td>5,000</td>
+            <td>8,000</td>
+            <td>Hộp</td>
+            <td>318</td>
+            <td>05/03/2024</td>
+            <td>05/08/2024</td>
+            <td>NCC0004</td>
+            <td>DM0001</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000024</td>
+            <td>Tương ớt Chin-Su</td>
+            <td>11,000</td>
+            <td>15,000</td>
+            <td>Chai</td>
+            <td>606</td>
+            <td>25/04/2024</td>
+            <td>25/12/2024</td>
+            <td>NCC0004</td>
+            <td>DM0002</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000025</td>
+            <td>Bia hơi 333</td>
+            <td>11,000</td>
+            <td>16,000</td>
+            <td>Lon</td>
+            <td>200</td>
+            <td>19/06/2024</td>
+            <td>19/06/2025</td>
+            <td>NCC0006</td>
+            <td>DM0004</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000026</td>
+            <td>Bánh Custard</td>
+            <td>25,000</td>
+            <td>30,000</td>
+            <td>Hộp</td>
+            <td>350</td>
+            <td>02/04/2024</td>
+            <td>02/04/2025</td>
+            <td>NCC0007</td>
+            <td>DM0005</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000027</td>
+            <td>Phomai con bò cười</td>
+            <td>32,000</td>
+            <td>38,000</td>
+            <td>Hộp</td>
+            <td>156</td>
+            <td>05/04/2024</td>
+            <td>05/04/2025</td>
+            <td>NCC0004</td>
+            <td>DM0001</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000028</td>
+            <td>Thạch dừa</td>
+            <td>13,000</td>
+            <td>16,000</td>
+            <td>Túi</td>
+            <td>60</td>
+            <td>30/03/2024</td>
+            <td>30/09/2024</td>
+            <td>NCC0002</td>
+            <td>DM0002</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000029</td>
+            <td>Bánh mì nho</td>
+            <td>6,000</td>
+            <td>8,000</td>
+            <td>Gói</td>
+            <td>56</td>
+            <td>14/10/2023</td>
+            <td>21/10/2023</td>
+            <td>NCC0001</td>
+            <td>DM0003</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>HA000030</td>
+            <td>Nước mắm Chin-Su</td>
+            <td>17,000</td>
+            <td>20,000</td>
+            <td>Chai</td>
+            <td>100</td>
+            <td>21/12/2023</td>
+            <td>21/12/2024</td>
+            <td>NCC0004</td>
+            <td>DM0002</td>
+          </tr>
+        </tbody>
+      </table>
+      
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

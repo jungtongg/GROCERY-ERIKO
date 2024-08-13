@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eriko</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit&family=Pacifico&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<!--===================================================== Header =====================================================-->
+<div id="header">
+    <nav class="navbar" id="navbar3">
+        <div class="navbar-brand">
+            <a href="index.html" class="a-link">
+                <h1>eriko</h1>
+            </a>         
+        </div>
+        <ul id="nav">
+            <li><a href="index.html">Trang chủ</a>
+            <li>
+                <a href="#">Cửa hàng</a>
+                <div class="category-menu">
+                    <ul>
+                        <li><a href="product.html" id="store-link">Hàng hoá</a></li>
+                        <li><a href="staff.html">Nhân viên</a></li>
+                        <li><a href="supplier.html">Nhà cung cấp</a></li>
+                        <li><a href="customer.html">Khách hàng</a></li>
+                        <li><a href="invoice.html">Hoá đơn</a></li>
+                        <li><a href="#">Báo cáo thống kê</a></li>
+                    </ul>
+                </div>    
+            </li>                  
+            <li><a href="">Bảng giá</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Trợ giúp</a></li>
+        </ul>
+
+        <div class="other">
+            <div class="search-container">
+                <input placeholder="Tìm kiếm" type="text">
+                <i class="fas fa-search"></i>
+            </div>
+            <a class="fa fa-user" href="#"></a>
+        </div>
+    </nav>      
+</div>
+
+<!--===================================================== Product =====================================================-->
+<div class="product-container">
+    <div class="product-sidebar">
+      <div class="filter-section">
+        <h3>Danh sách nhà cung cấp</h3>
+        <ul>
+          <li>Tất cả</li>
+        </ul>
+      </div>
+      <div class="group-section">
+        <h3>Theo khu vực</h3>
+      </div>
+      <div class="filter-section">
+        <ul>
+          <li>Miền Bắc</li>
+          <li>Miền Trung</li>
+          <li>Miền Nam</li>
+          <li>Nước ngoài</li>
+        </ul>
+      </div>
+      <div class="filter-section">
+        <h3>Theo phân loại hàng hoá</h3>
+        <ul>
+          <li>Gia dụng</li>
+          <li>Sữa</li>
+          <li>Bánh kẹo</li>
+          <li>Đồ khô</li>
+          <li>Đồ uống</li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="product-header">
+        <input type="text" placeholder="Theo mã, tên nhà cung cấp">
+        <select>
+          <option value="all">Tất cả</option>
+          <!-- other options -->
+        </select>
+        <button>Thêm mới</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Mã nhà cung cấp</th>
+            <th>Tên nhà cung cấp</th>
+            <th>Địa chỉ</th>
+            <th>SĐT</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>NCC0001</td>
+            <td>Công ty cổ phần Vinamilk</td>
+            <td>Số 10, đường Tân Trào, Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh, Việt Nam</td>
+            <td>028 54 161 226</td>
+            <td>vinamilk@vinamilk.com.vn</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>NCC0002</td>
+            <td>Công ty Cổ phần Thực phẩm Richy </td>
+            <td>Đường số 7, KCN Trảng Bàng, phường An Tịnh, thị xã Trảng Bàng, Tây Ninh, Vietnam</td>
+            <td>0276 3899 381</td>
+            <td>richy@gmail.com</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>NCC0003</td>
+            <td>Công ty Masan</td>
+            <td>Lầu 18, Masan Tower, 23 Lê Duẩn, Phường Bến Nghé, Quận 1, Tp. Hồ Chí Minh, Việt Nam</td>
+            <td>028 62 563 862</td>
+            <td>investorrelation@masangroup.com</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="highlighted">
+            <td><input type="checkbox"></td>
+            <td>NCC0004</td>
+            <td> Công ty cổ phần Thực phẩm Sữa TH</td>
+            <td>166, đường Nguyễn Thái Học, phường Quang Trung, TP Vinh, tỉnh Nghệ An, Việt Nam</td>
+            <td>024.3573 9777</td>
+            <td>thtruemilk@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
